@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mijn eerste HTML pagina </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Over mij</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://www.wincacademy.nl" target="_blank">Winc Academy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Het h1 element (heading 1) is de grootste en ziet er zo uit!</h1>
+        <hr>
+        <h2>Het h2 element (heading 2) is wat kleiner dan h1 en ziet er zo uit!</h2>
+        <p>Dit stukje is een "paragraaf" en dat word met het "p" element gemaakt!<br>
+            Hieronder komt een hr element en zorgt voor een break met een lijn!
+        </p>
+
+        <hr>
+        <section>
+            <article class="a1">
+                <h3> Een stappenplan om links te maken!</h3>
+
+                <ul>
+                    <li>Je begint met een "a" tag. </li>
+                    <li>Dan voeg je een "href" toe.</li>
+                    <li>Je wilt voorkomen dat mensen van jou site wegklikken? voeg je een "target="_blank"" toe.</li>
+                    <li>Tussen de "a open" en "a sluiten" kun je ook andere HTML elementen toevoegen, bijv "H1".</li>
+                    <li>Dit ziet er zo uit: &lta href="https://www.google.com" target="_blank"&gt &lth1&gt Google
+                        &lt/h1&gt
+                        &lt/a&gt.
+                    </li>
+                    <li>Ook kun je linken naar een pagina op je eigen site met "href", dan gebruik je de bestands
+                        locatie
+                        ipv
+                        "www.google.com" hierboven. En je voegt dan geen "target=_blank" toe</li>
+                </ul>
+                <hr>
+            </article>
+
+            <article class="a2">
+                <h3>Stappenplan om images te linken naar je site!</h3>
+
+                <ul>
+                    <li>Je begint met een "img" tag.</li>
+                    <li>In de "img" tag voeg je een "src" toe.</li>
+                    <li>Als je een "img" tag gebruikt voeg je ook een "alt" tag toe daarin omschrijf je kort je image
+                        zodat je als de img niet laad je nog wel weet wat er zou moeten staan.</li>
+                    <li>Je kan ook de hoogte en breedte van de image instellen met "height=" en "width=".</li>
+                    <li>Dat ziet er dan zo uit: &ltimg height="100" width="100" src="link" alt="text"/&gt.</li>
+                    <li>Ook kun je van een img een link maken door de img in een "a" tag te wikkelen dat ziet er zo uit
+                        &lta
+                        href="link"&gt &ltimg width="100" height="100" src="link" alt="text"/&gt &lt/a&gt.</li>
+                </ul>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <aside><img width="100" height="100" src="HTML logo.jpg" alt="HTML 5 logo" /> </aside>
+        By: Nick van Loon
+    </footer>
+
+</body>
+
+</html>
